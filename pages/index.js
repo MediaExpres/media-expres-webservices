@@ -16,20 +16,17 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.js</code>
-          </p>
+         
           <div>
             <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+              href="https://www.mediaexpres.ro"
               target="_blank"
               rel="noopener noreferrer"
             >
               By{' '}
               <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
+                src="/mediaexpres.svg"
+                alt="Media Expres Logo"
                 className={styles.vercelLogo}
                 width={100}
                 height={24}
@@ -42,17 +39,17 @@ export default function Home() {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
+            src="/banner_mediaexpres_webservices.svg"
+            alt="Media Expres Webservices Logo"
+            width={468}
+            height={60}
             priority
           />
         </div>
 
         <div className={styles.grid}>
           <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://www.mediaexpres.ro/"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -61,12 +58,12 @@ export default function Home() {
               Docs <span>-&gt;</span>
             </h2>
             <p>
-              Find in-depth information about Next.js features and&nbsp;API.
+              Find in-depth information about Webservices we feature.
             </p>
           </a>
 
           <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://mediaexpres.ro"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -75,26 +72,26 @@ export default function Home() {
               Learn <span>-&gt;</span>
             </h2>
             <p>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
+              Learn about Media Expres Webservices in an interactive form!
             </p>
           </a>
 
           <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://lignum-mobilier.ro"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Templates <span>-&gt;</span>
+              Web Admin <span>-&gt;</span>
             </h2>
             <p>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
+              Media Expres full admin your webiste the lowest price from zero to online.
             </p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://brutariaforni.ro"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -103,8 +100,7 @@ export default function Home() {
               Deploy <span>-&gt;</span>
             </h2>
             <p>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
+              From domain reservation, webhosting to deploying we work directly with RoTLD and Romarg.
             </p>
           </a>
         </div>
