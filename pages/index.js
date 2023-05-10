@@ -100,7 +100,7 @@ export default function Home() {
               Deploy <span>-&gt;</span>
             </h2>
             <p>
-              From domain reservation, webhosting to deploying we work directly with RoTLD and Romarg.
+              From domain reservation, webhosting to deploying we work directly with RoTLD and Romarg but not only.
             </p>
           </a>
 
