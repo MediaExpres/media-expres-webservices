@@ -86,7 +86,7 @@ export default function Home() {
               Web Admin <span>-&gt;</span>
             </h2>
             <p>
-              Media Expres full admin your webiste the lowest price from zero to online.
+              Media Expres full admin your webiste the lowest price from zero to online. Lignum-mobilier.ro and brutariaforni.ro are the living examples of our commitement. With under 500 Euro per year.
             </p>
           </a>
 
