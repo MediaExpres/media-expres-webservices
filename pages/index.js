@@ -49,7 +49,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="https://www.mediaexpres.ro/"
+            href="https://mediaexpres.ro/webservices/index.html"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -63,7 +63,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://mediaexpres.ro"
+            href="https://mediaexpres.ro/webservices/index.html"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
