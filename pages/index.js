@@ -100,7 +100,7 @@ export default function Home() {
               Deploy <span>-&gt;</span>
             </h2>
             <p>
-              From domain reservation, webhosting to deploying we work directly with RoTLD and Romarg but not only.
+              From domain reservation, webhosting to deploying we work directly with RoTLD and Romarg but not only. Lignum-mobilier.ro and brutariaforni.ro are the living examples of our commitement. With under 500 Euro per year.
             </p>
           </a>
 
