@@ -69,20 +69,6 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p>
-              Learn more about Media Expres Webservices!
-            </p>
-          </a>
-
-          <a
-            href="https://lignum-mobilier.ro"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
               Web Admin <span>-&gt;</span>
             </h2>
             <p>
