@@ -32,10 +32,10 @@ export default function Home() {
                 priority
               />
             </a>
-            <p> &copy; Media Expres SRL <script>document.write(new Date().getFullYear());</script></p> 
-            <p> e-mail: <a href="mailto:sales@mediaexpres.net">sales@mediaexpres.net</a></p>
-            <p> tel: +40730656959</p>
-          </div>
+         </div>
+         <p> &copy; Media Expres SRL <script>document.write(new Date().getFullYear());</script></p> 
+         <p> e-mail: <a href="mailto:sales@mediaexpres.net">sales@mediaexpres.net</a></p>
+         <p> tel: +40730656959</p>
         </div>
         <div> <h1>Welcome to </h1></div>
         <div className={styles.center}>
