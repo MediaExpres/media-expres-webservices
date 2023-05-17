@@ -55,7 +55,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
            
-            <h1 class="centered-title">Welcome to MediaExpres Web Services</h1>
+            <h1 className={syles.centered-title}>Welcome to MediaExpres Web Services</h1>
             <p>
               We specialize in full-stack development, server administration, and providing the most affordable solutions for taking your web presence from zero to online. Our team is dedicated to delivering high-quality websites tailored to your needs.
             </p>
