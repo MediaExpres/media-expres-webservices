@@ -37,7 +37,8 @@ export default function Home() {
         </div>
 
         <div className={styles.center}>
-          <Image
+        <h1>Welcome to </h1>
+        <Image
             className={styles.logo}
             src="/banner_mediaexpres_webservices.svg"
             alt="Media Expres Webservices Logo"
@@ -55,7 +56,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
            
-            <h1 className={styles.center}>Welcome to MediaExpres Web Services</h1>
+            
            
             <p>
               We specialize in full-stack development, server administration, and providing the most affordable solutions for taking your web presence from zero to online. Our team is dedicated to delivering high-quality websites tailored to your needs.
