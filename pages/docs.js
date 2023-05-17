@@ -55,8 +55,8 @@ export default function Home() {
             rel="noopener noreferrer"
           >
            
-            <h2>Welcome to MediaExpres Web Services</h2>
-            <br>
+            <h1 style={text-align.center} >Welcome to MediaExpres Web Services</h1>
+           
             <p>
               We specialize in full-stack development, server administration, and providing the most affordable solutions for taking your web presence from zero to online. Our team is dedicated to delivering high-quality websites tailored to your needs.
             </p>
