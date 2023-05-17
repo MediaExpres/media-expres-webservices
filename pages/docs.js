@@ -49,7 +49,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="https://mediaexpres.ro/webservices/index.html"
+            href="https://www.mediaexpres.ro/contact.aspx"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
