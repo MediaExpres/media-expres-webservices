@@ -16,8 +16,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
-         
-          <div>
+         <div>
             <a
               href="https://www.mediaexpres.ro"
               target="_blank"
@@ -32,9 +31,10 @@ export default function Home() {
                 height={24}
                 priority
               />
-              <p> &copy; Media Expres SRL <script>document.write(new Date().getFullYear());</script>  <a href="mailto:sales@mediaexpres.net">sales@mediaexpres.net</a> tel: +40730656959</p>
-  
             </a>
+            <p> &copy; Media Expres SRL <script>document.write(new Date().getFullYear());</script></p> 
+            <p> e-mail: <a href="mailto:sales@mediaexpres.net">sales@mediaexpres.net</a></p>
+            <p> tel: +40730656959</p>
           </div>
         </div>
         <div> <h1>Welcome to </h1></div>
