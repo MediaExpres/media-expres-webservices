@@ -50,12 +50,13 @@ export default function Home() {
         <div>
           <a
             href="https://www.mediaexpres.ro/contact.aspx"
-            className={syles.centered-title}
+           
             target="_blank"
             rel="noopener noreferrer"
           >
            
-            <h1>Welcome to MediaExpres Web Services</h1>
+            <h2>Welcome to MediaExpres Web Services</h2>
+            <br>
             <p>
               We specialize in full-stack development, server administration, and providing the most affordable solutions for taking your web presence from zero to online. Our team is dedicated to delivering high-quality websites tailored to your needs.
             </p>

@@ -108,9 +108,6 @@
   position: relative;
 }
 
-.centered-title {
-  text-align: center;
-}
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
