@@ -32,6 +32,8 @@ export default function Home() {
                 height={24}
                 priority
               />
+              <p> &copy; Media Expres SRL <script>document.write(new Date().getFullYear());</script> | <a href="mailto:sales@mediaexpres.net">sales@mediaexpres.net</a> | +40730656959</p>
+  
             </a>
           </div>
         </div>
@@ -82,8 +84,7 @@ export default function Home() {
        </div>
 
     <footer>
-       <p>&copy; Media Expres SRL - <script>document.write(new Date().getFullYear());</script> | <a href="mailto:sales@mediaexpres.net">sales@mediaexpres.net</a> | +40730656959</p>
-     </footer>
+   </footer>
     
       </main>
       
