@@ -35,9 +35,9 @@ export default function Home() {
             </a>
           </div>
         </div>
-
+        <div> <h1>Welcome to </h1></div>
         <div className={styles.center}>
-        <h1>Welcome to </h1>
+       
         <Image
             className={styles.logo}
             src="/banner_mediaexpres_webservices.svg"
