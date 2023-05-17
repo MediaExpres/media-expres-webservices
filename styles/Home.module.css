@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 4rem 6rem;
   min-height: 100vh;
 }
 
@@ -212,7 +212,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .vercelLogo {
+  .mexlogo {
     filter: invert(1);
   }
 

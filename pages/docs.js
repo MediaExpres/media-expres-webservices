@@ -27,7 +27,7 @@ export default function Home() {
               <Image
                 src="/mediaexpres.svg"
                 alt="Media Expres Logo"
-                className={styles.vercelLogo}
+                className={styles.mexlogo}
                 width={100}
                 height={24}
                 priority
@@ -37,8 +37,7 @@ export default function Home() {
         </div>
         <div> <h1>Welcome to </h1></div>
         <div className={styles.center}>
-       
-        <Image
+               <Image
             className={styles.logo}
             src="/banner_mediaexpres_webservices.svg"
             alt="Media Expres Webservices Logo"
