@@ -62,17 +62,11 @@ export default function Home() {
            
             <p>
               We specialize in full-stack development, server administration, and providing the most affordable solutions for taking your web presence from zero to online. Our team is dedicated to delivering high-quality websites tailored to your needs.
-            </p>
-            
-            <p>
               Whether you require a simple personal website or a complex e-commerce platform, we have the expertise to bring your vision to life. Our full-stack developers ensure that both the front-end and back-end of your website are robust, user-friendly, and visually appealing.
             </p>
             
             <p>
               Our server administrators guarantee smooth operations by managing server configurations, security, and performance optimization. We handle all the technical aspects, allowing you to focus on your core business.
-            </p>
-            
-            <p>
               MediaExpres Web Services prides itself on providing cost-effective solutions. We understand the challenges faced by startups and small businesses, and we offer affordable packages to get your website up and running without breaking the bank.
             </p>
             
