@@ -53,12 +53,10 @@ export default function Home() {
         <div>
           <a
             href="https://www.mediaexpres.ro/contact.aspx"
-           
+            className={styles.docs}
             target="_blank"
             rel="noopener noreferrer"
           >
-           
-            
            
             <p>
               We specialize in full-stack development, server administration, and providing the most affordable solutions from zero to online. Our team is dedicated to delivering fast high-quality websites tailored to any needs.
