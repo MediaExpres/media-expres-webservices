@@ -61,9 +61,9 @@ export default function Home() {
             
            
             <p>
-              We specialize in full-stack development, server administration, and providing the most affordable solutions for taking your web presence from zero to online. Our team is dedicated to delivering high-quality websites tailored to your needs.
-              Whether you require a simple personal website or a complex e-commerce platform, we have the expertise to bring your vision to life. Our full-stack developers ensure that both the front-end and back-end of your website are robust, user-friendly, and visually appealing.
-            </p>
+              We specialize in full-stack development, server administration, and providing the most affordable solutions from zero to online. Our team is dedicated to delivering fast high-quality websites tailored to any needs.
+              Whether you require a simple personal website or a complex e-commerce platform, we have the expertise to bring your vision to life. 
+              </p>
             
             <p>
               Our server administrators guarantee smooth operations by managing server configurations, security, and performance optimization. We handle all the technical aspects, allowing you to focus on your core business.
@@ -71,7 +71,7 @@ export default function Home() {
             </p>
             
             <p>
-              Contact us today to discuss your web development needs and let us help you establish a strong online presence.
+              Contact us today to discuss your web vision and let us help you build a strong online presence.
             </p>
                 
           </a>
