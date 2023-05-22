@@ -59,17 +59,11 @@ export default function Home() {
           >
            
             <p>
-              Our server administrators guarantee smooth operations by managing server configurations, security, and performance optimization. We handle all the technical aspects, allowing you to focus on your core business.
-              MediaExpres Web Services prides itself on providing cost-effective solutions. We understand the challenges faced by startups and small businesses, and we offer affordable packages to get your website up and running without breaking the bank.
-            </p>
-            
-            <p>
-              Contact us today to discuss your web vision and let us help you build a strong online presence.
+             MediaExpres Web Services prides itself on providing cost-effective solutions. We understand the challenges faced by startups and small businesses, and we offer affordable packages to get your website up and running without breaking the bank.
+             Contact us today to discuss your web vision and let us help you build a strong online presence.
             </p>
           </a>
-          
-
-       </div>
+               </div>
 
     <footer>
    </footer>
