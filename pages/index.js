@@ -63,6 +63,20 @@ export default function Home() {
             </p>
           </Link>
 
+          <Link
+            href="/docs"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+              Docs <span>-&gt;</span>
+            </h2>
+            <p>
+              Find in-depth information about Webservices we feature.
+            </p>
+          </Link>
+          
           <a
             href="https://mediaexpres.ro/webservices/index.html"
             className={styles.card}
