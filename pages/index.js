@@ -64,16 +64,16 @@ export default function Home() {
           </Link>
 
           <Link
-            href="/docs"
+            href="/prices"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Docs <span>-&gt;</span>
+              Prices <span>-&gt;</span>
             </h2>
             <p>
-              Find in-depth information about Webservices we feature.
+              No project is like other but our prices are alike: lowest possible, client friendly.
             </p>
           </Link>
           
