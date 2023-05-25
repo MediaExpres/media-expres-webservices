@@ -45,7 +45,9 @@ export default function Home() {
           />
         </div>
 
-        <div>
+       </div>
+    </main>
+    <div>
           <a
             href="https://www.mediaexpres.ro/contact.aspx"
             className={styles.docs}
@@ -59,8 +61,6 @@ export default function Home() {
            </p>
           </a>
        </div>
-      </div>
-    </main>
   </>  
     
   )
