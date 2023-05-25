@@ -62,10 +62,12 @@ export default function Home() {
        </div>
 
        <footer>
-        <p> &copy; Media Expres SRL&nbsp; <a><span id="year"></span></a>
+        <p> &copy; Media Expres SRL&nbsp; 
+        <p>The current year is: <span id="year"></span></p>
+
 <script>
   var yearElement = document.getElementById("year");
-  yearElement.textContent = new Date().getFullYear();
+  yearElement.textContent = `${new Date().getFullYear()}`;
 </script>
          <a href="mailto:sales@mediaexpres.net">sales@mediaexpres.net</a>
          &nbsp;tel: +40730656959
