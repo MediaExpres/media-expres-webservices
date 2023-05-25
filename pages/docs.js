@@ -62,17 +62,17 @@ export default function Home() {
        </div>
 
        <footer>
-    <p>© 2023 Media Expres</p>
-    <p> &copy; Media Expres SRL&nbsp;<span id="year"></span> 
+        <p> &copy; Media Expres SRL&nbsp;<span id="year"></span> 
          <a href="mailto:sales@mediaexpres.net">sales@mediaexpres.net</a>
          &nbsp;tel: +40730656959
           </p>
-        </footer>
-    
-        <script>
+          <script>
     var yearElement = document.getElementById("year");
     yearElement.textContent = new Date().getFullYear();
         </script>
+        </footer>
+    
+      
        </main>
   </>  
     
