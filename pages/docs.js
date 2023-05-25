@@ -58,6 +58,12 @@ export default function Home() {
            </p>
           </a>
        </div>
+       </div>
+         <p> &copy; Media Expres SRL <script>document.write(new Date().getFullYear());</script> 
+         <a href="mailto:sales@mediaexpres.net">sales@mediaexpres.net</a>
+          tel: +40730656959
+          </p>
+        </div>
 
       </main>
       
