@@ -32,6 +32,7 @@ export default function Home() {
                 priority
               />
             </a>
+          </div>
         <div> <h1>Welcome to </h1></div>
         <div className={styles.center}>
                <Image
@@ -59,7 +60,7 @@ export default function Home() {
           </a>
        </div>
       </div>
-      </main>
+    </main>
   </>  
     
   )
