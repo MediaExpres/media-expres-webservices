@@ -63,9 +63,9 @@ export default function Home() {
 
        <footer>
     <p>© 2023 Media Expres</p>
-    <p> &copy; Media Expres SRL <script>document.write(new Date().getFullYear());</script> 
+    <p> &copy; Media Expres SRL&nbsp;<script>document.write(new Date().getFullYear());</script> 
          <a href="mailto:sales@mediaexpres.net">sales@mediaexpres.net</a>
-          tel: +40730656959
+         &nbsp;tel: +40730656959
           </p>
         </footer>
     
