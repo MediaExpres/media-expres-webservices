@@ -71,8 +71,7 @@ export default function Home() {
         </div>
 
         <footer>
-          <p> &copy; Media Expres SRL&nbsp;
-            The current year is: {currentYear}
+          <p> &copy; Media Expres SRL&nbsp;{currentYear};&nbsp;
             <a href="mailto:sales@mediaexpres.net">sales@mediaexpres.net</a>
             &nbsp;tel: +40730656959
           </p>
