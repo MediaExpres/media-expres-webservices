@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <>
+<>
       <Head>
         <title>MEDIA EXPRES WEBSERVICES</title>
         <meta name="description" content="The presentation page of the web developer services offered by Media Expres" />
@@ -58,15 +58,9 @@ export default function Home() {
            </p>
           </a>
        </div>
-       </div>
-         <p> &copy; Media Expres SRL <script>document.write(new Date().getFullYear());</script> 
-         <a href="mailto:sales@mediaexpres.net">sales@mediaexpres.net</a>
-          tel: +40730656959
-          </p>
-        </div>
-
+      </div>
       </main>
-      
-    </>
+  </>  
+    
   )
 }
