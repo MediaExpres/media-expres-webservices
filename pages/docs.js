@@ -34,7 +34,7 @@ export default function Home() {
             </a>
           </div>
        </div>
-    </main>
+    
     <div> <h1>Welcome to </h1></div>
         <div className={styles.center}>
                <Image
@@ -60,6 +60,13 @@ export default function Home() {
            </p>
           </a>
        </div>
+
+       <footer>
+    <p>© 2023 Media Expres</p>
+        </footer>
+    
+
+       </main>
   </>  
     
   )
