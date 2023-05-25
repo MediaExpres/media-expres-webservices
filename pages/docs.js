@@ -33,7 +33,9 @@ export default function Home() {
               />
             </a>
           </div>
-        <div> <h1>Welcome to </h1></div>
+       </div>
+    </main>
+    <div> <h1>Welcome to </h1></div>
         <div className={styles.center}>
                <Image
             className={styles.logo}
@@ -44,9 +46,6 @@ export default function Home() {
             priority
           />
         </div>
-
-       </div>
-    </main>
     <div>
           <a
             href="https://www.mediaexpres.ro/contact.aspx"
