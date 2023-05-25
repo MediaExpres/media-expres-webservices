@@ -62,14 +62,14 @@ export default function Home() {
        </div>
 
        <footer>
-        <p> &copy; Media Expres SRL&nbsp;<span id="year"></span> 
+        <p> &copy; Media Expres SRL&nbsp;  
+        <script>
+    document.write(new Date().getFullYear());
+        </script> 
          <a href="mailto:sales@mediaexpres.net">sales@mediaexpres.net</a>
          &nbsp;tel: +40730656959
           </p>
-          <script>
-    var yearElement = document.getElementById("year");
-    yearElement.textContent = new Date().getFullYear();
-        </script>
+    
         </footer>
     
       
