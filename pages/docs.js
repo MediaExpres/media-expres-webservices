@@ -69,7 +69,10 @@ export default function Home() {
           </p>
         </footer>
     
-        <script>document.write(new Date().getFullYear())</script>
+        <script>
+    var yearElement = document.getElementById("year");
+    yearElement.textContent = new Date().getFullYear();
+        </script>
        </main>
   </>  
     
