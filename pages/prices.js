@@ -60,7 +60,8 @@ export default function Home() {
            
             <p>
              MediaExpres Web Services prides itself on providing cost-effective solutions. We understand the challenges faced by startups and small businesses, and we offer affordable packages to get your website up and running without breaking the bank.
-             Contact us today to discuss your web vision and let us help you build a strong online presence.
+             Contact us today to discuss your web vision and let us help you build a strong online presence. We have been seen lately
+             setting up from zero to running as low as EUR 250, the currency of our choice.
             </p>
           </a>
                </div>
