@@ -106,6 +106,9 @@ export default function Home() {
 
         </div>
 
+        <div class="containerIframe">
+                    <iframe class="responsive-iframe" src="https://www.mediaexpres.ro"></iframe>
+        </div>
         <footer>
     <p>© 2023 Media Expres</p>
         </footer>
