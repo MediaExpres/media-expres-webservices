@@ -47,6 +47,10 @@ export default function Home() {
           />
         </div>
 
+        <div className={styles.responsive-iframe}>
+                    <iframe src="https://www.mediaexpres.ro"></iframe>
+      </div>
+
         <div className={styles.grid}>
           <Link
             href="/docs"
@@ -112,9 +116,7 @@ export default function Home() {
         </footer>
     
       </main>
-      <div class="containerIframe">
-                    <iframe class="responsive-iframe" src="https://www.mediaexpres.ro"></iframe>
-      </div>
+ 
     </>
   )
 }
