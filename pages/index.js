@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +17,6 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
-         
           <div>
             <a
               href="https://www.mediaexpres.ro"
@@ -48,8 +48,10 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
+        
           <a
             href="https://mediaexpres.ro/webservices/index.html"
+
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -60,24 +62,27 @@ export default function Home() {
             <p>
               Find in-depth information about Webservices we feature.
             </p>
-          </a>
+          </Link>
+
 
           <a
             href="https://mediaexpres.ro/webservices/index.html"
+            
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Learn <span>-&gt;</span>
+              Prices <span>-&gt;</span>
             </h2>
             <p>
-              Learn more about Media Expres Webservices!
+              No project is like other but our prices are alike: lowest possible, client friendly.
+              
             </p>
-          </a>
-
+          </Link>
+          
           <a
-            href="https://lignum-mobilier.ro"
+            href="https://mediaexpres.ro/webservices/index.html"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"

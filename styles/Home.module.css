@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 1rem 1rem;
   min-height: 100vh;
 }
 
@@ -107,6 +107,11 @@
 .logo {
   position: relative;
 }
+
+.docs {
+  padding: 4rem;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -192,7 +197,7 @@
     pointer-events: none;
     inset: auto 0 0;
     padding: 2rem;
-    height: 200px;
+    height: 100px;
     background: linear-gradient(
       to bottom,
       transparent 0%,
@@ -210,7 +215,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .vercelLogo {
+  .mexlogo {
     filter: invert(1);
   }
 
