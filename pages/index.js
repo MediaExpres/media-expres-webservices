@@ -47,10 +47,6 @@ export default function Home() {
           />
         </div>
 
-        <div className={styles.responsive-iframe}>
-                    <iframe src="https://www.mediaexpres.ro"></iframe>
-      </div>
-
         <div className={styles.grid}>
           <Link
             href="/docs"
