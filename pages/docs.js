@@ -66,15 +66,25 @@ export default function Home() {
             The Infinite Scroll page <span>-&gt;</span>
             </h2>
            
-           <iframe width="30%" height="30%" src="https://mediaexpres.ro/infinitescroll/index.html"></iframe>
+           <iframe width="100%" height="100%" src="https://mediaexpres.ro/infinitescroll/index.html"></iframe>
            
            </Link>
-          
 
-          <br/><br/>
-          <a href="https://lignum-mobilier.ro"> Lignum Mobilier Presentation & Online Store <br/><br/>
-          <iframe width="30%" height="30%" src="https://lignum-mobilier.ro"></iframe>
-          </a>
+           <Link
+            href="https://lignum-mobilier.ro"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            
+            <h2>
+            Lignum Mobilier Presentation & Online Store <span>-&gt;</span>
+            </h2>
+            
+            <iframe width="100%" height="100%" src="https://lignum-mobilier.ro"></iframe>
+        
+          </Link>
+          
         </div>
         <div>
           <a
