@@ -18,7 +18,7 @@ export default function Home() {
     <>
       <Head>
         <title>MEDIA EXPRES WEBSERVICES</title>
-        <meta name="description" content="The presentation page of the web developer services offered by Media Expres" />
+        <meta name="description" content="The portfolio page of the web developer Media Expres" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <h1>Welcome to </h1>
+          <h1>PORTFOLIO</h1>
         </div>
         <div className={styles.center}>
           <Image
