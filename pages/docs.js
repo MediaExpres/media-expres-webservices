@@ -56,20 +56,7 @@ export default function Home() {
           />
         </div>
  
-        <div>
-          <a
-            href="https://www.mediaexpres.ro/contact.aspx"
-            className={styles.docs}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <p>
-              We specialize in full-stack development, server administration, and providing the most affordable solutions from zero to online. Our team is dedicated to delivering fast high-quality websites tailored to any needs.
-              Whether you require a simple personal website or a complex e-commerce platform, we have the expertise to bring your vision to life.
-              Our server administrators guarantee smooth operations by managing server configurations, security, and performance optimization. We handle all the technical aspects, allowing you to focus on your core business.
-            </p>
-          </a>
-        </div>
+    
         <div className={styles.center}>
         <div className={styles.grid}>
           <Link
