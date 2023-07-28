@@ -68,11 +68,11 @@ export default function Home() {
             <h2>
             The Infinite Scroll page <span>-&gt;</span>
             </h2>
-            <iframe width="100%" height="100%" src="https://mediaexpres.ro/infinitescroll/index.html"></iframe>
+            <iframe src="https://mediaexpres.ro/infinitescroll/index.html"></iframe>
           </a>
         
           <a
-            href="https://lignum-mobilier.ro"
+            href="https://www.lignum-mobilier.ro"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -80,9 +80,8 @@ export default function Home() {
             <h2>
             Lignum Mobilier Presentation & Online Store <span>-&gt;</span>
             </h2>
-            <iframe width="100%" height="100%" src="https://lignum-mobilier.ro"></iframe>
+            <iframe src="https://lignum-mobilier.ro"></iframe>
           </a>
-        
         
           <a
             href="https://brutariaforni.ro"
@@ -96,7 +95,7 @@ export default function Home() {
             </h2>
           
         
-            <iframe width="100%" height="100%" src="https://brutariaforni.ro"></iframe>
+            <iframe src="https://brutariaforni.ro"></iframe>
           
           </a>
 
