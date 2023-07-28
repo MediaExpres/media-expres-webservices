@@ -98,11 +98,12 @@ export default function Home() {
             <h2>
             Brutăria Forni Presentation & Online Store <span>-&gt;</span>
             </h2>
-            
+          
+        
+            <iframe width="100%" height="100%" src="https://brutariaforni.ro"></iframe>
+          
           </a>
-        
-          <iframe width="100%" height="100%" src="https://brutariaforni.ro"></iframe>
-        
+
         </div>
 </div>
         <footer>
