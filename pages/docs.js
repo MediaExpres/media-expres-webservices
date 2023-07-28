@@ -62,8 +62,9 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
+          <a href="https://mediaexpres.ro/infinitescroll/index.html">
           <iframe id="portfolio_iframe" src="https://mediaexpres.ro/infinitescroll/index.html"></iframe>
-           
+          </a>
 
             <p>
               We specialize in full-stack development, server administration, and providing the most affordable solutions from zero to online. Our team is dedicated to delivering fast high-quality websites tailored to any needs.
