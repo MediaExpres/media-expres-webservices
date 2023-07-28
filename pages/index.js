@@ -78,7 +78,7 @@ export default function Home() {
           </Link>
           
           <a
-            href="https://mediaexpres.ro/webservices/index.html"
+            href="https://www.mediaexpres.ro/contact.aspx"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
