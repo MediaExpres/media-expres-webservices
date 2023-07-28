@@ -94,6 +94,19 @@ export default function Home() {
             </h2>
             <iframe width="100%" height="100%" src="https://mediaexpres.ro/infinitescroll/index.html"></iframe>
           </a>
+
+          <a
+            href="https://scurtpe2.ro/rasfoieste-scurt-pe-2/"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+            SCURT PE 2 ONLINE <span>-&gt;</span>
+            </h2>
+            <iframe width="100%" height="100%" src="https://scurtpe2.ro/rasfoieste-scurt-pe-2/"></iframe>
+          </a>
+
         </div>
       
         <footer>
