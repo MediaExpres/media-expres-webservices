@@ -55,10 +55,22 @@ export default function Home() {
             priority
           />
         </div>
-        <div>
-        <a href="https://mediaexpres.ro/infinitescroll/index.html"> The Infinite Scroll page <br/><br/>
-          <iframe width="30%" height="30%" src="https://mediaexpres.ro/infinitescroll/index.html"></iframe>
-          </a>
+        <div className={styles.grid}>
+          <Link
+            href="https://mediaexpres.ro/infinitescroll/index.html"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+            The Infinite Scroll page <span>-&gt;</span>
+            </h2>
+           
+           <iframe width="30%" height="30%" src="https://mediaexpres.ro/infinitescroll/index.html"></iframe>
+           
+           </Link>
+          
+
           <br/><br/>
           <a href="https://lignum-mobilier.ro"> Lignum Mobilier Presentation & Online Store <br/><br/>
           <iframe width="30%" height="30%" src="https://lignum-mobilier.ro"></iframe>
