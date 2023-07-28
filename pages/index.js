@@ -58,10 +58,10 @@ export default function Home() {
               Portfolio <span>-&gt;</span>
             </h2>
             <p>
-              Here you can find some of our works:  </p>
-            <iframe id="portfolio_iframe" src="https://mediaexpres.ro/infinitescroll/index.html"></iframe>
-           
-          </Link>
+              Here you can find some of our works:  
+            </p>
+
+           </Link>
 
           <Link
             href="/prices"
@@ -106,12 +106,6 @@ export default function Home() {
           </a>
 
         </div>
-
-        <script>
-   var iframe = document.getElementById("portfolio_iframe");
-   iframe.width = iframe.contentWindow.document.body.scrollWidth;
-   iframe.height = iframe.contentWindow.document.body.scrollHeight;
-        </script>
 
         <footer>
     <p>© 2023 Media Expres</p>
