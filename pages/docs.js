@@ -70,7 +70,7 @@ export default function Home() {
             </p>
           </a>
         </div>
-
+        <div className={styles.center}>
         <div className={styles.grid}>
           <Link
             href="https://mediaexpres.ro/infinitescroll/index.html"
@@ -102,7 +102,7 @@ export default function Home() {
           <iframe width="100%" height="100%" src="https://lignum-mobilier.ro"></iframe>
         
         </div>
-
+</div>
         <footer>
           <p> &copy; Media Expres SRL&nbsp;{currentYear};&nbsp;
             <a href="mailto:sales@mediaexpres.net">sales@mediaexpres.net;</a>
