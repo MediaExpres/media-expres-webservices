@@ -62,8 +62,8 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-          <a href="https://mediaexpres.ro/infinitescroll/index.html"> Infinite scroll page
-          <iframe id="portfolio_iframe" src="https://mediaexpres.ro/infinitescroll/index.html"></iframe>
+          <a href="https://mediaexpres.ro/infinitescroll/index.html"> Infinite scroll page <br></br>
+          <iframe width="100%" height="100%" src="https://mediaexpres.ro/infinitescroll/index.html"></iframe>
           </a>
 
             <p>
@@ -80,11 +80,7 @@ export default function Home() {
             &nbsp;tel: +40730656959
           </p>
         </footer>
-        <script>
-      var iframe = document.getElementById("portfolio_iframe");
-      iframe.width = iframe.contentWindow.document.body.scrollWidth;
-      iframe.height = iframe.contentWindow.document.body.scrollHeight;
-           </script>
+
       </main>
     </>
   )
