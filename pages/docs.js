@@ -63,7 +63,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
           <a href="https://mediaexpres.ro/infinitescroll/index.html"> Infinite scroll page <br></br>
-          <iframe width="100%" height="100%" src="https://mediaexpres.ro/infinitescroll/index.html"></iframe>
+          <iframe width="30%" height="30%" src="https://mediaexpres.ro/infinitescroll/index.html"></iframe>
           </a>
 
             <p>
