@@ -88,6 +88,21 @@ export default function Home() {
         
           <iframe width="100%" height="100%" src="https://lignum-mobilier.ro"></iframe>
         
+          <a
+            href="https://brutariaforni.ro"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            
+            <h2>
+            Brutăria Forni Presentation & Online Store <span>-&gt;</span>
+            </h2>
+            
+          </a>
+        
+          <iframe width="100%" height="100%" src="https://brutariaforni.ro"></iframe>
+        
         </div>
 </div>
         <footer>
