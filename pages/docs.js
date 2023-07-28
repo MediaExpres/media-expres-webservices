@@ -59,7 +59,7 @@ export default function Home() {
     
         <div className={styles.center}>
         <div className={styles.grid}>
-          <Link
+          <a
             href="https://mediaexpres.ro/infinitescroll/index.html"
             className={styles.card}
             target="_blank"
@@ -69,11 +69,11 @@ export default function Home() {
             The Infinite Scroll page <span>-&gt;</span>
             </h2>
            
-           </Link>
+           </a>
            
            <iframe width="100%" height="100%" src="https://mediaexpres.ro/infinitescroll/index.html"></iframe>
            
-           <Link
+           <a
             href="https://lignum-mobilier.ro"
             className={styles.card}
             target="_blank"
@@ -84,7 +84,7 @@ export default function Home() {
             Lignum Mobilier Presentation & Online Store <span>-&gt;</span>
             </h2>
             
-          </Link>
+          </a>
         
           <iframe width="100%" height="100%" src="https://lignum-mobilier.ro"></iframe>
         
