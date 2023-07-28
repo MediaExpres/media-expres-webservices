@@ -56,20 +56,21 @@ export default function Home() {
           />
         </div>
         <div>
-          <a
-            href="https://www.mediaexpres.ro/contact.aspx"
-            className={styles.docs}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-          <a href="https://mediaexpres.ro/infinitescroll/index.html"> The Infinite Scroll page <br/><br/>
+        <a href="https://mediaexpres.ro/infinitescroll/index.html"> The Infinite Scroll page <br/><br/>
           <iframe width="30%" height="30%" src="https://mediaexpres.ro/infinitescroll/index.html"></iframe>
           </a>
 
           <a href="https://lignum-mobilier.ro"> Lignum Mobilier Presentation & Online Store <br/><br/>
           <iframe width="30%" height="30%" src="https://lignum-mobilier.ro"></iframe>
           </a>
-
+        </div>
+        <div>
+          <a
+            href="https://www.mediaexpres.ro/contact.aspx"
+            className={styles.docs}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <p>
               We specialize in full-stack development, server administration, and providing the most affordable solutions from zero to online. Our team is dedicated to delivering fast high-quality websites tailored to any needs.
               Whether you require a simple personal website or a complex e-commerce platform, we have the expertise to bring your vision to life.
