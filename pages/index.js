@@ -55,7 +55,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2>
-              Docs <span>-&gt;</span>
+              Portfolio <span>-&gt;</span>
             </h2>
             <p>
               Find in-depth information about Webservices we feature.
