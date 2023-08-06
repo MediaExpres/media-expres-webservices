@@ -66,7 +66,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2>
-            Lignum Mobilier <span>-&gt;</span>
+            Lignum Mobilier 
             </h2>
             <iframe width="100%" height="100%" src="https://lignum-mobilier.ro"></iframe>
           </a>
@@ -78,7 +78,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2>
-            Brutăria Forni <span>-&gt;</span>
+            Brutăria Forni 
             </h2>
             <iframe width="100%" height="100%" src="https://brutariaforni.ro"></iframe>
           </a>
@@ -90,7 +90,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2>
-            The Infinite Scroll <span>-&gt;</span>
+            The Infinite Scroll 
             </h2>
             <iframe width="100%" height="100%" src="https://mediaexpres.ro/infinitescroll/index.html"></iframe>
           </a>
@@ -102,7 +102,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2>
-            Scurt pe 2<span>-&gt;</span>
+            Scurt pe 2
             </h2>
             <iframe width="100%" height="100%" src="https://scurtpe2.ro/rasfoieste-scurt-pe-2/"></iframe>
           </a>
