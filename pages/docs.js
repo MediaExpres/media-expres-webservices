@@ -102,7 +102,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2>
-            SCURT PE 2 flip<span>-&gt;</span>
+            Scurt pe 2<span>-&gt;</span>
             </h2>
             <iframe width="100%" height="100%" src="https://scurtpe2.ro/rasfoieste-scurt-pe-2/"></iframe>
           </a>
