@@ -76,7 +76,7 @@ export default function Home() {
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
-          >
+          ><br></br>
             <h2>
             Brutăria Forni <span>-&gt;</span>
             </h2>
