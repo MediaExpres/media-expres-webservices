@@ -76,7 +76,7 @@ export default function Home() {
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
-          ><br></br>
+          >
             <h2>
             Brutăria Forni <span>-&gt;</span>
             </h2>
@@ -88,7 +88,7 @@ export default function Home() {
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
-          ><br></br>
+          >
             <h2>
             The Infinite Scroll <span>-&gt;</span>
             </h2>
@@ -100,7 +100,7 @@ export default function Home() {
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
-          ><br></br>
+          >
             <h2>
             SCURT PE 2 flip<span>-&gt;</span>
             </h2>
