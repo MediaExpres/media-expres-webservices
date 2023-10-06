@@ -111,7 +111,7 @@ export default function Home() {
       
         <footer>
           <p> &copy; Media Expres SRL&nbsp;{currentYear};&nbsp;
-            <a href="mailto:sales@mediaexpres.net">sales@mediaexpres.net;</a>
+            {/* <a href="mailto:sales@mediaexpres.net">sales@mediaexpres.net;</a> */}
             &nbsp;tel: +40730656959
           </p>
         </footer>
