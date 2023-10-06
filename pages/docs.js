@@ -90,7 +90,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             
-            The Infinite Scroll 
+            <strong>THE INFINITE SCROLL</strong>
             
             <iframe width="100%" height="100%" src="https://mediaexpres.ro/infinitescroll/index.html"></iframe>
           </a>
@@ -102,7 +102,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             
-            Scurt pe 2
+            <strong>SCURT PE 2 ONLINE</strong>
             
             <iframe width="100%" height="100%" src="https://scurtpe2.ro/rasfoieste-scurt-pe-2/"></iframe>
           </a>
