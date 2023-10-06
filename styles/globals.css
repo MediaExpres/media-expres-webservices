@@ -75,7 +75,7 @@
 
 * {
   box-sizing: border-box;
-  padding: 0;
+  padding: 2;
   margin: 0;
 }
 
@@ -97,18 +97,20 @@ body {
 
 a {
   color: inherit;
+  padding-bottom: 5px;
   text-decoration: none;
 }
 
 h2 {
   text-align: center;
-  padding: 0px;
+  padding: 5px;
   margin-top: 8px;
   }
 
 footer {
   text-align: center;
 }
+
 
 @media (prefers-color-scheme: dark) {
   html {
