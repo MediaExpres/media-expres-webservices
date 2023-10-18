@@ -21,6 +21,16 @@ export default function Home() {
         <meta name="description" content="The portfolio page of the web developer Media Expres" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-VPHL96LY7Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VPHL96LY7Q');
+</script>
+
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
