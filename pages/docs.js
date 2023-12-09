@@ -109,7 +109,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://mediaexpres.net/pictures/"
+            href="https://mediaexpres.net/pictures/admin.php"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -117,7 +117,7 @@ export default function Home() {
             
             <strong>MEDIA EXPRES PICTURES</strong>
             
-            <iframe width="100%" height="100%" src="https://mediaexpres.net/pictures/"></iframe>
+            <iframe width="100%" height="100%" src="https://mediaexpres.net/pictures/admin.php"></iframe>
           </a>
 
         </div>
