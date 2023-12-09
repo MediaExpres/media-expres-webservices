@@ -108,8 +108,8 @@ export default function Home() {
             <iframe width="100%" height="100%" src="https://scurtpe2.ro/rasfoieste-scurt-pe-2/"></iframe>
           </a>
 
-          <a
-            href="https://mediaexpres.net/pictures/admin.php"
+          {/* <a
+            href="https://mediaexpres.net/pictures/admin"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -118,7 +118,7 @@ export default function Home() {
             <strong>MEDIA EXPRES PICTURES</strong>
             
             <iframe width="100%" height="100%" src="https://mediaexpres.net/pictures/admin.php"></iframe>
-          </a>
+          </a> */}
 
         </div>
       
