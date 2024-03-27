@@ -121,12 +121,7 @@ export default function Home() {
           </a>
 
               
-          <a
-            href="https://megogo.net/ro"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+
             
         </div>
       
