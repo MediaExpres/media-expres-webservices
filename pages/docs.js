@@ -128,12 +128,6 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             
-  //           <strong>MEGOGO Copy&Subs</strong>
-  //           <a width="100%" height="100%" href="https://www.megogo.net"></a>
-
-  //          <iframe width="100%" height="100%" src="https://megogo.net/ro"></iframe>
-  //         </a>
-
         </div>
       
         <footer>
