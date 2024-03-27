@@ -120,6 +120,19 @@ export default function Home() {
             <iframe width="100%" height="100%" src="https://pictures.mediaexpres.net"></iframe>
           </a>
 
+              
+          <a
+            href="https://megogo.net"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            
+            <strong>MEGOGO Coywriting&Subtitles</strong>
+            
+            <iframe width="100%" height="100%" src="https://megogo.net"></iframe>
+          </a>
+
         </div>
       
         <footer>
