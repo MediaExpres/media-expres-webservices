@@ -122,15 +122,15 @@ export default function Home() {
 
               
           <a
-            href="https://megogo.net"
+            href="https://megogo.net/ro"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             
-            <strong>MEGOGO Coywriting&Subtitles</strong>
+            <strong>MEGOGO Copy&Subs</strong>
             
-            <iframe width="100%" height="100%" src="https://megogo.net"></iframe>
+            <iframe width="100%" height="100%" src="https://megogo.net/ro"></iframe>
           </a>
 
         </div>
