@@ -74,7 +74,7 @@ export default function Home() {
               Prices <span>-&gt;</span>
             </h2>
             <p>
-              No project is like other but our prices are alike: lowest possible, client friendly.
+              No project is like others but our prices are alike: lowest possible, client-friendly.
             </p>
           </Link>
           
@@ -88,7 +88,7 @@ export default function Home() {
               Web Admin <span>-&gt;</span>
             </h2>
             <p>
-              Media Expres full admin your webiste the lowest price from zero to online. Lignum-mobilier.ro and brutariaforni.ro are the living examples of our commitement. With under 500 Euro per year.
+              Media Expres fully administers your website at the lowest price from zero to online. Lignum-mobilier.ro and brutariaforni.ro are living examples of our commitment. With under 500 Euro per year.
             </p>
           </a>
 
@@ -102,14 +102,14 @@ export default function Home() {
               Deploy <span>-&gt;</span>
             </h2>
             <p>
-              From domain reservation, webhosting to deploying we work directly with RoTLD and Romarg but not only. Lignum-mobilier.ro and brutariaforni.ro are the living examples of our commitement. With under 500 Euro per year.
+              From domain reservation, and webhosting to deploying we work directly with RoTLD and Romarg but not only. Lignum-mobilier.ro and brutariaforni.ro are living examples of our commitment. With under 500 Euro per year.
             </p>
           </a>
 
         </div>
 
         <footer>
-    <p>© 2023 Media Expres</p>
+    <p>© 2024 Media Expres</p>
         </footer>
     
       </main>
