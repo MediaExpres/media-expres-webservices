@@ -214,14 +214,7 @@
     );
     z-index: 1;
   }
-  /* Remove centering for mobile */
-  .container paragraph{
-    max-width: 50%; /* Limit to 50% of the viewport width */
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
-}
+ }
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
@@ -233,6 +226,13 @@
     width: auto;
     margin: revert;
     text-align: left;
+  }
+   /* Remove centering for mobile */
+  .container paragraph{
+    max-width: 50%; /* Limit to 50% of the viewport width */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
 }
 
