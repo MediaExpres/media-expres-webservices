@@ -60,7 +60,7 @@ export default function Home() {
           >
            <container>
             
-             Media Expres offers subititle editing services based on Romanian language for which we offer human proofreading serivces from any language of origin. To discuss your projects, terms and conditions please drop us a line in the contact form or call us directly.
+             Media Expres offers subititle editing services based on Romanian language for which we offer human proofreading serivces from any language of origin. To discuss your projects, and our terms and conditions please drop us a line in the contact form or call us directly.
           
             </container>
           </a>
