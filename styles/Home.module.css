@@ -115,7 +115,7 @@
 }
 
 /* Styles for <p> inside a specific container (if needed) */
-.container paragraph {
+.container {
   width: 50%;
   margin: 0 auto;
   text-align: center;
@@ -229,7 +229,7 @@
     text-align: left;
   }
    /* Remove centering for mobile */
-  .container paragraph{
+  .container {
     max-width: 50%; /* Limit to 50% of the viewport width */
     margin-left: auto;
     margin-right: auto;

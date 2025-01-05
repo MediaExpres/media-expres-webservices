@@ -58,7 +58,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-           <container paragraph>
+           <container>
             
              Media Expres offers subititle editing services based on Romanian language for which we offer human proofreading serivces from any language of origin. To discuss your projects, terms and conditions please drop us a line in the contact form or call us directly.
           
