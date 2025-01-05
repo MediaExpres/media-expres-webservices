@@ -215,7 +215,7 @@
     z-index: 1;
   }
   /* Remove centering for mobile */
-  .container p{
+  .container paragraph{
     max-width: 50%; /* Limit to 50% of the viewport width */
     margin-left: auto;
     margin-right: auto;
@@ -229,7 +229,7 @@
     grid-template-columns: repeat(2, 50%);
     
   }
-  .container p{
+  .container paragraph{
     width: auto;
     margin: revert;
     text-align: left;
