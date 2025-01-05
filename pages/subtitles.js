@@ -54,7 +54,7 @@ export default function Home() {
         <div>
           <a
             href="https://www.mediaexpres.ro/contact.aspx"
-            
+            className={styles.docs}
             target="_blank"
             rel="noopener noreferrer"
           >
