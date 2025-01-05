@@ -216,6 +216,7 @@
   }
   /* Remove centering for mobile */
   .container p{
+    max-width: 50%; /* Limit to 50% of the viewport width */
     width: auto;
     margin: revert;
     text-align: left;
