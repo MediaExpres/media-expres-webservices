@@ -1,3 +1,5 @@
+/* Home.module.css */
+
 .main {
   display: flex;
   flex-direction: column;
@@ -112,6 +114,13 @@
   padding: 4rem;
 }
 
+/* Styles for <p> inside a specific container (if needed) */
+.container p {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -204,6 +213,12 @@
       rgb(var(--background-end-rgb)) 40%
     );
     z-index: 1;
+  }
+  /* Remove centering for mobile */
+  .container p{
+    width: auto;
+    margin: revert;
+    text-align: left;
   }
 }
 
