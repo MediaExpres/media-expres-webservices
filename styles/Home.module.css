@@ -217,9 +217,9 @@
   /* Remove centering for mobile */
   .container p{
     max-width: 50%; /* Limit to 50% of the viewport width */
-    width: auto;
-    margin: revert;
-    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
 }
 
@@ -227,6 +227,12 @@
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
+    
+  }
+  .container p{
+    width: auto;
+    margin: revert;
+    text-align: left;
   }
 }
 
