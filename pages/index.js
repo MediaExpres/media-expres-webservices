@@ -49,6 +49,22 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
+        <Link
+            href="/subtitles"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+              Subtitles services <span>-&gt;</span>
+            </h2>
+            <p>
+              Here you can find details about our subtitle editing services.  
+            </p>
+
+           </Link>
+ 
+
           <Link
             href="/docs"
             className={styles.card}
