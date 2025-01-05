@@ -111,14 +111,18 @@
 }
 
 .docs {
+  display: flex;
+  justify-content: center;
   padding: 4rem;
 }
 
-/* Styles for <p> inside a specific container (if needed) */
-.container {
-  width: 50%;
-  margin: 0 auto;
-  text-align: center;
+.docs container {
+  width: 50%; /* Use width instead of max-width for a fixed size */
+  margin: 0 auto; /* Center horizontally */
+  text-align: justify; /* Justify the text content */
+  border: 1px solid #ccc; /* Add a hairline border */
+  padding: 20px; /* Add some padding inside the box */
+  box-sizing: border-box; /* Include padding and border in the element's total width */
 }
 
 
@@ -214,6 +218,13 @@
       rgb(var(--background-end-rgb)) 40%
     );
     z-index: 1;
+  }
+  .docs container {
+    width: auto; /* Let it take up full width on mobile */
+    margin: revert; /* Reset margins for mobile */
+    text-align: left; /* Align text to the left on mobile */
+    border: none; /* Remove border on mobile */
+    padding: 0; /* Remove padding on mobile */
   }
  }
 
