@@ -65,20 +65,18 @@ export default function Home() {
             </container>
           </a>
                </div>
-
-    <div className="bubbles-container">
+          <div className="bubbles-container">
       <div className="bubble"></div>
       <div className="bubble"></div>
       <div className="bubble"></div>
       <div className="bubble"></div>
       <div className="bubble"></div>
-    </div>
-
-    <footer>
+          </div>
+  <footer>
    </footer>
     
       </main>
       
     </>
-  )
+  );
 }
