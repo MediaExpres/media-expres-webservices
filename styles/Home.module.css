@@ -195,6 +195,11 @@
   animation: rise 5s infinite;
   background: url('/movie-icon.svg') no-repeat center center;
   background-size: contain;
+  cursor: pointer; /* Add cursor pointer for clickable icons */
+}
+
+.icon.paused {
+  animation-play-state: paused; /* Pause the animation */
 }
 
 .icon:nth-child(2) {
