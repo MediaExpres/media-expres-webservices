@@ -142,13 +142,13 @@
   width: 100%;
   height: 100%;
   pointer-events: none;
-  z-index: -1;
+  z-index: 1; /* Bring it in front of other elements */
   overflow: hidden; /* Prevent scrollbars */
 }
 
 .bubble {
   position: absolute;
-  bottom: -20px; /* Start slightly below the bottom of the visible area */
+  bottom: 0; /* Start from the bottom of the visible area */
   width: 20px;
   height: 20px;
   background-color: blue;
