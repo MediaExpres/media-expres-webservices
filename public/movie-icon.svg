@@ -42,4 +42,16 @@
      points="24,16 24,48 48,32"
      fill="#fff"
      id="polygon1" />
+  <!-- Left dots -->
+  <rect x="4" y="10" width="4" height="4" fill="#fff" />
+  <rect x="4" y="20" width="4" height="4" fill="#fff" />
+  <rect x="4" y="30" width="4" height="4" fill="#fff" />
+  <rect x="4" y="40" width="4" height="4" fill="#fff" />
+  <rect x="4" y="50" width="4" height="4" fill="#fff" />
+  <!-- Right dots -->
+  <rect x="56" y="10" width="4" height="4" fill="#fff" />
+  <rect x="56" y="20" width="4" height="4" fill="#fff" />
+  <rect x="56" y="30" width="4" height="4" fill="#fff" />
+  <rect x="56" y="40" width="4" height="4" fill="#fff" />
+  <rect x="56" y="50" width="4" height="4" fill="#fff" />
 </svg>
