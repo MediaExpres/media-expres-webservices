@@ -2,10 +2,40 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '../styles/Home.module.css'
+import { useEffect } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Subtitles() {
+  useEffect(() => {
+    const handleSpacebarPress = (event) => {
+      if (event.code === 'Space') {
+        event.preventDefault();
+        const icons = document.querySelectorAll(`.${styles.icon}`);
+        icons.forEach(icon => {
+          icon.classList.toggle(styles.paused);
+        });
+      }
+    };
+
+    const handleIconClick = () => {
+      window.open('https://www.mediaexpres.ro/contact.aspx', '_blank');
+    };
+
+    document.addEventListener('keydown', handleSpacebarPress);
+    const icons = document.querySelectorAll(`.${styles.icon}`);
+    icons.forEach(icon => {
+      icon.addEventListener('click', handleIconClick);
+    });
+
+    return () => {
+      document.removeEventListener('keydown', handleSpacebarPress);
+      icons.forEach(icon => {
+        icon.removeEventListener('click', handleIconClick);
+      });
+    };
+  }, []);
+
   return (
     <>
       <Head>
