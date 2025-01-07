@@ -196,6 +196,7 @@
   background: url('/movie-icon.svg') no-repeat center center;
   background-size: contain;
   cursor: pointer; /* Add cursor pointer for clickable icons */
+  pointer-events: auto; /* Ensure icons are clickable */
 }
 
 .icon.paused {
