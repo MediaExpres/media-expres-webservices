@@ -148,7 +148,7 @@
 
 .bubble {
   position: absolute;
-  bottom: 0; /* Start from the bottom of the visible area */
+  bottom: -20px; /* Start slightly below the bottom of the visible area */
   width: 20px;
   height: 20px;
   background-color: blue;
