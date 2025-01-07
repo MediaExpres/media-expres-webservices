@@ -136,9 +136,19 @@
   z-index: -1;
 }
 
+.bubblesContainer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  overflow: hidden; /* Prevent scrollbars */
+}
+
 .bubble {
   position: absolute;
-  bottom: -100px;
+  bottom: 0; /* Start from the bottom of the visible area */
   width: 20px;
   height: 20px;
   background-color: blue;
