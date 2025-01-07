@@ -66,6 +66,14 @@ export default function Home() {
           </a>
                </div>
 
+    <div className="bubbles-container">
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+    </div>
+
     <footer>
    </footer>
     
