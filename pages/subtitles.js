@@ -18,7 +18,7 @@ export default function Subtitles() {
       }
     };
 
-    const handleIconClick = () => {
+    const handleIconClick = (event) => {
       window.open('https://www.mediaexpres.ro/contact.aspx', '_blank');
     };
 
