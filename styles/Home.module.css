@@ -151,7 +151,7 @@
   bottom: 0; /* Start from the bottom of the visible area */
   width: 20px;
   height: 20px;
-  background-color: blue;
+  background: radial-gradient(circle at 30% 30%, #ffffff, #0000ff); /* Create 3D sphere effect */
   border-radius: 50%;
   opacity: 0.7;
   border: 1px solid white; /* Add white hairline margin */
