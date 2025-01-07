@@ -154,7 +154,7 @@
   background: radial-gradient(circle at 30% 30%, #ffffff, #0000ff); /* Create 3D sphere effect */
   border-radius: 50%;
   opacity: 0.7;
-  border: 1px solid white; /* Add white hairline margin */
+  border: 0px solid white; /* Add white hairline margin */
   animation: rise 5s infinite;
 }
 
