@@ -87,9 +87,10 @@ export default function Subtitles() {
             rel="noopener noreferrer"
           >
             <container>
-              <p>Media Expres offers <strong>MOVIES, SERIES and DOCUMENTAIRES SUBTITLE EDITING SERVICES</strong> in and out of the Romanian language, for which we offer <strong>HUMAN PROOFREADING</strong> to any language of target and from any language of origin. To discuss your projects, and our terms and conditions please drop us a line in the contact form or call us directly.</p>
+              <p> Media Expres provides <strong>subtitle editing services for movies, series, and documentaries</strong>, translating both into and out of Romanian. We offer <strong>human proofreading</strong> for all target and source languages. To discuss your project and our terms and conditions, please contact us via the contact form or by phone.
+ </p>
               <br />
-              <p>Silly screen? Press <strong>SPACE</strong> to pause the mounting icons and click Play to get in touch with us.</p>
+              <p>Silly screen? Click Play on the mounting icons to get in touch with us. Lazy hunters? Press SPACEBAR to freeze them down.</p>
             </container>
           </a>
         </div>
