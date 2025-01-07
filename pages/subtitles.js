@@ -61,12 +61,12 @@ export default function Subtitles() {
             </container>
           </a>
         </div>
-        <div className="bubbles-container">
-          <div className="bubble"></div>
-          <div className="bubble"></div>
-          <div className="bubble"></div>
-          <div className="bubble"></div>
-          <div className="bubble"></div>
+        <div className={styles.bubblesContainer}>
+          <div className={styles.bubble}></div>
+          <div className={styles.bubble}></div>
+          <div className={styles.bubble}></div>
+          <div className={styles.bubble}></div>
+          <div className={styles.bubble}></div>
         </div>
         <footer>
         </footer>
