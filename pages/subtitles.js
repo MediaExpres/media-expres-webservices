@@ -19,7 +19,7 @@ export default function Subtitles() {
     };
 
     const handleIconClick = (event) => {
-      window.open('https://www.mediaexpres.ro/contact.aspx', '_blank');
+      window.location.href = '/buy'; // Navigate to the Buy Page
     };
 
     document.addEventListener('keydown', handleSpacebarPress);
