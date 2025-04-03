@@ -62,6 +62,19 @@ export default function Buy() {
             <li>Emergency delivery (within 24 hours): <strong>Double the price</strong></li>
             <li>Regular delivery time: <strong>48 hours</strong></li>
           </ul>
+          <h3>Languages Supported</h3>
+          <p>
+            Our native human verification is performed in <strong>Romanian</strong>, translating from any of the following large circulation languages:
+            <ul>
+              <li>English</li>
+              <li>Spanish</li>
+              <li>French</li>
+              <li>German</li>
+              <li>Russian</li>
+              <li>Chinese</li>
+              <li>All European Union and the geographical Europe languages</li>
+            </ul>
+          </p>
           <h3>Contact Us</h3>
           <p>
             To place an order or discuss your project, please contact us via email at 
