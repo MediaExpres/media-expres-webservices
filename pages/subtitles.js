@@ -81,14 +81,12 @@ export default function Subtitles() {
         </div>
         <div>
           <a
-            href="https://www.mediaexpres.ro/contact.aspx"
+            href="/buy"
             className={styles.docs}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <container>
-              <p> Media Expres provides <strong>subtitle editing services for movies, series, and documentaries</strong>, translating both into and out of Romanian. We offer <strong>human proofreading</strong> for all target and source languages. To discuss your project and our terms and conditions, please contact us via the contact form or by phone.
- </p>
+              <p> Media Expres provides <strong>subtitle editing services for movies, series, and documentaries</strong>, translating both into and out of Romanian. We offer <strong>human proofreading</strong> for all target and source languages. To discuss your project and our terms and conditions, please visit our <strong>Buy Page</strong>.
+              </p>
               <br />
               <p>Silly screen? Click Play on the mounting icons to get in touch with us. Lazy hunters? Press SPACEBAR to freeze them down.</p>
             </container>
