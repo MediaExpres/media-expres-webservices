@@ -105,7 +105,7 @@ export default function Home() {
             
             <strong>SCURT PE 2 ONLINE</strong>
             
-            <iframe width="100%" height="100%" src="https://scurtpe2.ro/rasfoieste-scurt-pe-2/"></iframe>
+            <iframe width="100%" height="100%" src="https://scurtpe2.ro/?page_id=16041"></iframe>
           </a>
 
           <a
