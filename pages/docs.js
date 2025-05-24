@@ -97,7 +97,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://scurtpe2.ro/rasfoieste-scurt-pe-2/"
+            href="https://scurtpe2.ro/?page_id=16041"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
