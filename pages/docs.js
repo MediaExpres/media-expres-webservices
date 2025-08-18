@@ -21,7 +21,6 @@ export default function Home() {
         <meta name="description" content="The portfolio page of the web developer Media Expres" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
@@ -56,92 +55,68 @@ export default function Home() {
             priority
           />
         </div>
- 
-    
-      
-        <div className={styles.grid}>        
-          <a
-            href="https://www.lignum-mobilier.ro"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            
-            <strong>LIGNUM MOBILIER</strong> 
-            
-            <iframe width="100%" height="100%" src="https://lignum-mobilier.ro"></iframe>
-          </a>
-        
-          <a
-            href="https://brutariaforni.ro"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            
-           <strong>BRUTARIA FORNI</strong> 
-            
-            <iframe width="100%" height="100%" src="https://brutariaforni.ro"></iframe>
+
+        <div className={styles.grid}>
+          
+          {/* --- Exemplu CARD NORMAL (pentru site-uri responsive) --- */}
+          <a href="https://www.lignum-mobilier.ro" className={styles.card} target="_blank" rel="noopener noreferrer">
+            <strong>LIGNUM MOBILIER</strong>
+            <div className={styles.iframeContainer}>
+              <iframe className={styles.portfolioIframe} src="https://lignum-mobilier.ro" title="Lignum Mobilier"></iframe>
+            </div>
           </a>
 
-          <a
-            href="https://mediaexpres.ro/infinitescroll/index.html"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            
+          <a href="https://brutariaforni.ro" className={styles.card} target="_blank" rel="noopener noreferrer">
+            <strong>BRUTARIA FORNI</strong>
+            <div className={styles.iframeContainer}>
+              <iframe className={styles.portfolioIframe} src="https://brutariaforni.ro" title="Brutaria Forni"></iframe>
+            </div>
+          </a>
+
+          <a href="https://mediaexpres.ro/infinitescroll/index.html" className={styles.card} target="_blank" rel="noopener noreferrer">
             <strong>THE INFINITE SCROLL</strong>
-            
-            <iframe width="100%" height="100%" src="https://mediaexpres.ro/infinitescroll/index.html"></iframe>
+            <div className={styles.iframeContainer}>
+              <iframe className={styles.portfolioIframe} src="https://mediaexpres.ro/infinitescroll/index.html" title="The Infinite Scroll"></iframe>
+            </div>
           </a>
 
-          <a
-            href="https://scurtpe2.ro/?page_id=16041"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            
+          <a href="https://scurtpe2.ro/?page_id=16041" className={styles.card} target="_blank" rel="noopener noreferrer">
             <strong>SCURT PE 2 ONLINE</strong>
-            
-            <iframe width="100%" height="100%" src="https://scurtpe2.ro/?page_id=16041"></iframe>
+            <div className={styles.iframeContainer}>
+              <iframe className={styles.portfolioIframe} src="https://scurtpe2.ro/?page_id=16041" title="Scurt pe 2 Online"></iframe>
+            </div>
           </a>
 
-          <a
-            href="https://pictures.mediaexpres.net"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            
+          <a href="https://pictures.mediaexpres.net" className={styles.card} target="_blank" rel="noopener noreferrer">
             <strong>MEDIA EXPRES PICTURES</strong>
-            
-            <iframe width="100%" height="100%" src="https://pictures.mediaexpres.net"></iframe>
+            <div className={styles.iframeContainer}>
+              <iframe className={styles.portfolioIframe} src="https://pictures.mediaexpres.net" title="Media Expres Pictures"></iframe>
+            </div>
           </a>
 
-          <a
-            href="https://citestepetrebarbu.ro/proiect-3d/index.html"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          {/* --- Exemplu CARD SPECIAL (pentru site-ul non-responsiv) --- */}
+          <a href="https://citestepetrebarbu.ro/proiect-3d/index.html" className={styles.card} target="_blank" rel="noopener noreferrer">
             <strong>CITEȘTE PETRE BARBU</strong>
-            
-            <iframe width="100%" height="100%" src="https://citestepetrebarbu.ro/proiect-3d/index.html"></iframe>
-            
-          </a>   
+            {/* Folosim Același container 16:9 */}
+            <div className={styles.iframeContainer}>
+              {/* Dar aplicăm ambele clase pe iframe: cea generală + cea specială pentru scalare */}
+              <iframe 
+                className={`${styles.portfolioIframe} ${styles.scaledIframe}`} 
+                src="https://citestepetrebarbu.ro/proiect-3d/index.html" 
+                title="Citește Petre Barbu Proiect 3D"
+                style={{ '--scale-factor': 320 / 1280 }} // Aici calculăm factorul de scalare dinamic
+                >
+              </iframe>
+            </div>
+          </a>
 
-            
         </div>
-      
+
         <footer>
           <p> &copy; Media Expres SRL&nbsp;{currentYear};&nbsp;
-            {/* <a href="mailto:sales@mediaexpres.net">sales@mediaexpres.net;</a> */}
             &nbsp;tel: +40730656959
           </p>
         </footer>
-
       </main>
     </>
   )

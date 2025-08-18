@@ -409,3 +409,43 @@
   list-style-type: disc;
   margin-left: 20px;
 }
+
+/*
+  Acest container folosește "trucul" cu padding-top pentru a forța un raport de 16:9.
+  (9 / 16 = 0.5625 => 56.25%)
+  Va fi folosit pentru TOATE ferestrele iframe.
+*/
+.iframeContainer {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* Raport de aspect 16:9 */
+  overflow: hidden;
+  background: #f0f0f0; /* O culoare de fundal în timpul încărcării */
+}
+
+/*
+  Aceste reguli se aplică TUTUROR iframe-urilor din portofoliu.
+  Le face să umple perfect containerul părinte.
+*/
+.portfolioIframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none; /* Înlocuiește frameborder="0" */
+}
+
+/*
+  CLASA SPECIALĂ: Se va aplica DOAR iframe-ului non-responsiv.
+  Acesta este trucul de scalare pe care l-am discutat.
+*/
+.scaledIframe {
+  /* Dimensiunile reale ale conținutului */
+  width: 1280px;
+  height: 720px;
+  
+  /* Micșorează conținutul pentru a încăpea într-un container mai mic */
+  transform: scale(var(--scale-factor, 0.25)); /* Factorul de scalare va fi ajustat de lățimea cardului */
+  transform-origin: top left;
+}
