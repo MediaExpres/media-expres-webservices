@@ -57,7 +57,7 @@ export default function Buy() {
           </p>
           <h3>Pricing</h3>
           <ul>
-            <li>Price: <strong>1 to 5 EURO per minute of movie depending from where we start</strong></li>
+            <li>Price: <strong>1 to 5 EURO per minute of movie </strong>depending from where we start</li>
             <li>Minimum amount payable: <strong>5 minutes</strong> (for shorter videos like trailers)</li>
             <li>Emergency delivery (within 24 hours): <strong>Double the price</strong></li>
             <li>Regular delivery time: <strong>48 hours</strong></li>
