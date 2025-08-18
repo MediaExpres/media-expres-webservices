@@ -120,7 +120,17 @@ export default function Home() {
             <iframe width="100%" height="100%" src="https://pictures.mediaexpres.net"></iframe>
           </a>
 
-              
+          <a
+            href="https://citestepetrebarbu.ro/proiect-3d/index.html"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <strong>CITEȘTE PETRE BARBU</strong>
+            
+            <iframe width="100%" height="100%" src="https://citestepetrebarbu.ro/proiect-3d/index.html"></iframe>
+            
+          </a>   
 
             
         </div>
