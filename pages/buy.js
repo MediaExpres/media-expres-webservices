@@ -57,7 +57,7 @@ export default function Buy() {
           </p>
           <h3>Pricing</h3>
           <ul>
-            <li>Price: <strong>1 EURO per minute of movie</strong></li>
+            <li>Price: <strong>1 to 5 EURO per minute of movie depending from where we start</strong></li>
             <li>Minimum amount payable: <strong>5 minutes</strong> (for shorter videos like trailers)</li>
             <li>Emergency delivery (within 24 hours): <strong>Double the price</strong></li>
             <li>Regular delivery time: <strong>48 hours</strong></li>
@@ -78,7 +78,7 @@ export default function Buy() {
           <h3>Contact Us</h3>
           <p>
             To place an order or discuss your project, please contact us via email at 
-            <a href="mailto:sales@mediaexpres.net"> sales@mediaexpres.net</a> or call us at <strong>+40730656959</strong>.
+            <a href="mailto:sales@mediaexpres.net"> sales [at] mediaexpres.net</a>, <a href="mailto:media.expres@gmail.com"> media.expres [at] gmail.com</a>, WhatsApp or call us at <strong>+40730656959</strong>.
           </p>
         </div>
         <footer>
