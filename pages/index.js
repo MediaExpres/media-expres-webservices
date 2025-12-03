@@ -124,13 +124,9 @@ export default function Home() {
 
         </div>
 
-        <footer>
-    <p>© <span id="year"></span> Media Expres</p>
+       <footer>
+  <p>© {new Date().getFullYear()} Media Expres</p>
 </footer>
-
-<script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-</script>
     
       </main>
  
