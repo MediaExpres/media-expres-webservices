@@ -94,6 +94,13 @@ export default function Home() {
             </div>
           </a>
 
+          <a href="https://valahiadelta.ro/" className={styles.card} target="_blank" rel="noopener noreferrer">
+            <strong>PENSIUNEA VALAHIA</strong>
+            <div className={styles.iframeContainer}>
+              <iframe className={styles.portfolioIframe} src="https://valahiadelta.ro/" title="Pensiunea Valahia"></iframe>
+            </div>
+          </a>
+
           {/* --- Exemplu CARD SPECIAL (pentru site-ul non-responsiv) --- */}
           <a href="https://citestepetrebarbu.ro/proiect-3d/index.html" className={styles.card} target="_blank" rel="noopener noreferrer">
             <strong>CITEȘTE PETRE BARBU</strong>
