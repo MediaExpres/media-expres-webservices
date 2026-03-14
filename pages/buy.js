@@ -33,7 +33,7 @@ export default function Buy() {
               />
             </a>
           </div>
-          <p> &copy; Media Expres SRL <script>document.write(new Date().getFullYear());</script> 
+          <p> &copy; Media Expres SRL {new Date().getFullYear()} 
             <a href="mailto:sales@mediaexpres.net">sales@mediaexpres.net</a>
             tel: +40730656959
           </p>

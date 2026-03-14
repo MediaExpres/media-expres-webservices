@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 import { useEffect } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -63,7 +64,7 @@ export default function Subtitles() {
               />
             </a>
           </div>
-          <p> &copy; Media Expres SRL <script>document.write(new Date().getFullYear());</script> 
+          <p> &copy; Media Expres SRL {new Date().getFullYear()} 
             <a href="mailto:sales@mediaexpres.net">sales@mediaexpres.net</a>
             tel: +40730656959
           </p>
@@ -80,17 +81,17 @@ export default function Subtitles() {
           />
         </div>
         <div>
-          <a
+          <Link
             href="/buy"
             className={styles.docs}
           >
-            <container>
+            <div>
               <p> Media Expres provides <strong>subtitle editing services for movies, series, and documentaries</strong>, translating both into and out of Romanian. We offer <strong>human proofreading</strong> for all target and source languages. To discuss your project and our terms and conditions, please visit our <strong>Buy Page</strong>.
               </p>
               <br />
               <p>Silly screen? Click Play on the mounting icons to get in touch with us. Lazy hunters? Press SPACEBAR to freeze them down.</p>
-            </container>
-          </a>
+            </div>
+          </Link>
         </div>
         <div className={styles.bubblesContainer}>
           <div className={styles.icon}></div>

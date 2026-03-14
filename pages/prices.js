@@ -34,7 +34,7 @@ export default function Home() {
               />
             </a>
          </div>
-         <p> &copy; Media Expres SRL <script>document.write(new Date().getFullYear());</script> 
+         <p> &copy; Media Expres SRL {new Date().getFullYear()} 
          <a href="mailto:sales@mediaexpres.net">sales@mediaexpres.net</a>
           tel: +40730656959
           </p>
@@ -59,11 +59,11 @@ export default function Home() {
             rel="noopener noreferrer"
           >
            
-            <container>
+            <div>
              MediaExpres Web Services prides itself on providing cost-effective solutions. We understand the challenges faced by startups and small businesses, and we offer affordable packages to get your website up and running without breaking the bank.
              Contact us today to discuss your web vision and let us help you build a strong online presence. We have been seen lately
              setting up from zero to running as low as EUR 250, the currency of our choice.
-            </container>
+            </div>
           </a>
                </div>
 
