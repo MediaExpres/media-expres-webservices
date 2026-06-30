@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "22.x"
+    "node": ">=22.0.0"
   },
   "scripts": {
     "dev": "next dev",
@@ -16,5 +16,9 @@
     "next": "^9.3.3",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
+  }
+  "overrides": {
+  "tar": "^6.2.1",
+  "terser": "^5.31.0"
   }
 }
