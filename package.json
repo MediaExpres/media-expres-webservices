@@ -18,7 +18,8 @@
     "react-dom": "^19.2.4"
   }
   "overrides": {
-  "tar": "^6.2.1",
-  "terser": "^5.31.0"
-  }
+  "tar": "^7.4.3",
+  "terser": "^5.31.0",
+  "shell-quote": "^1.8.1"
+}
 }
